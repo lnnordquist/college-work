@@ -1,0 +1,439 @@
+lnordquist p4shell grade: 63/63 
+ 
+https://phoenixforge.cs.uchicago.edu/svn/lnordquist-cs154-win-23 
+We graded your revision number: 41 
+
+$ make
+gcc -Wall -Werror -o myshell myshell.c
+
+$ /local/zxxia/cs154-win-23-admin/grading/p4shell/p4shell/test-scripts/grade.py
+You are in the right directory
+Don't delete clean.sh
+Don't delete grade.py
+Don't delete runOneTest.sh
+----------------------------------
+Running batch file: gooduser_basic
+Diffing gooduser_basic.stdout
+
+
+Diffing gooduser_basic.stderr
+
+
+gooduser_basic       7  7
+----------------------------------
+Running batch file: gooduser_args
+Diffing gooduser_args.stdout
+
+
+Diffing gooduser_args.stderr
+
+
+gooduser_args        7  7
+----------------------------------
+Running batch file: gooduser_redirection
+Diffing gooduser_redirection.stdout
+2,26d1
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1/:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+28,53d2
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1/:
+< total 1244
+< -rw-r--r--  1 zar1 15400   47362 Feb 20  2014 aclocal.m4
+< -rw-r--r--  1 zar1 15400   28526 Feb 20  2014 autogen.sh
+< -rw-r--r--  1 zar1 15400   63098 Feb 20  2014 CHANGES
+< drwxr-sr-x  2 zar1 15400      38 Feb 20  2014 confdb
+< -rw-r--r--  1 zar1 15400 1798912 Feb 20  2014 configure
+< -rw-r--r--  1 zar1 15400  231733 Feb 20  2014 configure.ac
+< drwxr-sr-x  3 zar1 15400       4 Feb 20  2014 contrib
+< -rw-r--r--  1 zar1 15400    1439 Feb 20  2014 COPYRIGHT
+< drwxr-sr-x 10 zar1 15400      13 Feb 20  2014 doc
+< drwxr-sr-x  6 zar1 15400      25 Feb 20  2014 examples
+< drwxr-sr-x  4 zar1 15400      55 Feb 20  2014 maint
+< -rw-r--r--  1 zar1 15400   17088 Feb 20  2014 Makefile.am
+< -rw-r--r--  1 zar1 15400 2638605 Feb 20  2014 Makefile.in
+< drwxr-sr-x  4 zar1 15400       4 Feb 20  2014 man
+< -rw-r--r--  1 zar1 15400   21620 Feb 20  2014 mpich.def
+< -rw-r--r--  1 zar1 15400   51981 Feb 20  2014 mpich-doxygen.in
+< -rw-r--r--  1 zar1 15400   15827 Feb 20  2014 mpi.def
+< -rw-r--r--  1 zar1 15400   33162 Feb 20  2014 README
+< -rw-r--r--  1 zar1 15400   21919 Feb 20  2014 README.envvar
+< -rw-r--r--  1 zar1 15400    2346 Feb 20  2014 RELEASE_NOTES
+< drwxr-sr-x 18 zar1 15400      19 Feb 20  2014 src
+< -rw-r--r--  1 zar1 15400    2452 Feb 20  2014 subsys_include.m4
+< drwxr-sr-x  9 zar1 15400      14 Feb 20  2014 test
+< drwxr-sr-x  4 zar1 15400       4 Feb 20  2014 www
+
+
+Diffing gooduser_redirection.stderr
+Diffing gooduser_redirection_rd_1
+Diffing gooduser_redirection_rd_2
+gooduser_redirection 0  2
+----------------------------------
+Running batch file: gooduser_multipleCommand
+Diffing gooduser_multipleCommand.stdout
+
+
+Diffing gooduser_multipleCommand.stderr
+
+
+gooduser_multipleCommand 7  7
+----------------------------------
+Running batch file: buildin_wrongFormat
+Diffing buildin_wrongFormat.stdout
+
+
+Diffing buildin_wrongFormat.stderr
+
+
+buildin_wrongFormat  7  7
+----------------------------------
+Running batch file: cd_toFolderNotExist
+Diffing cd_toFolderNotExist.stdout
+
+
+Diffing cd_toFolderNotExist.stderr
+
+
+cd_toFolderNotExist  3  3
+----------------------------------
+Running batch file: badCommand
+Diffing badCommand.stdout
+
+
+Diffing badCommand.stderr
+
+
+badCommand           4  4
+----------------------------------
+Running batch file: complexCommand
+Diffing complexCommand.stdout
+
+
+Diffing complexCommand.stderr
+
+
+complexCommand       6  6
+----------------------------------
+Running batch file: multipleCommand
+Diffing multipleCommand.stdout
+
+
+Diffing multipleCommand.stderr
+
+
+multipleCommand      8  8
+----------------------------------
+Running batch file: complexRedirection_format
+Diffing complexRedirection_format.stdout
+2,26d1
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+28,52d2
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+55,79d4
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+82,106d6
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+
+
+Diffing complexRedirection_format.stderr
+Diffing complexRedirection_format_rd_1
+Diffing complexRedirection_format_rd_2
+Diffing complexRedirection_format_rd_3
+Diffing complexRedirection_format_rd_4
+Diffing complexRedirection_format_rd_5
+Diffing complexRedirection_format_rd_6
+Diffing complexRedirection_format_rd_7
+Diffing complexRedirection_format_rd_8
+complexRedirection_format 0  2
+----------------------------------
+Running batch file: complexRedirection_illegal
+Diffing complexRedirection_illegal.stdout
+2,26d1
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+28,52c3
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+---
+> An error has occurred
+53a5
+> An error has occurred
+63,87c15
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+---
+> An error has occurred
+89,113c17
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+---
+> An error has occurred
+115,139c19
+< /stage/classes/archive/2014/spring/15400/p4shell/mpich-3.1:
+< aclocal.m4
+< autogen.sh
+< CHANGES
+< confdb
+< configure
+< configure.ac
+< contrib
+< COPYRIGHT
+< doc
+< examples
+< maint
+< Makefile.am
+< Makefile.in
+< man
+< mpich.def
+< mpich-doxygen.in
+< mpi.def
+< README
+< README.envvar
+< RELEASE_NOTES
+< src
+< subsys_include.m4
+< test
+< www
+---
+> An error has occurred
+
+
+Diffing complexRedirection_illegal.stderr
+Diffing complexRedirection_illegal_rd_1
+complexRedirection_illegal 0  1
+----------------------------------
+Running batch file: emptyInput
+Diffing emptyInput.stdout
+
+
+Diffing emptyInput.stderr
+
+
+emptyInput           1  1
+----------------------------------
+Running batch file: 1KCommand
+Diffing 1KCommand.stdout
+
+
+Diffing 1KCommand.stderr
+
+
+1KCommand            3  3
+two arguments        2  2
+does not exist       2  2
+File name            1  1
+Makefile and README  5  5
+total                63  63
+
+Final Grade: 63
